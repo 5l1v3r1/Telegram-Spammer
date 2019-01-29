@@ -1,0 +1,32 @@
+﻿<Window x:Class="TLSpammer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TLSpammer"
+        mc:Ignorable="d"
+        Title="Вход"  Height="336.773" Width="549.035"
+        Icon="files/mask.png"
+        ResizeMode="NoResize">
+
+    <Window.Background>
+        <ImageBrush ImageSource="files/backgorund.jpg"></ImageBrush>
+    </Window.Background>
+
+    <Grid>
+
+        <Label Content="Номер должен быть в интернациональном формате! (38xxx-xxx-xx-xx)" FontSize="14" Foreground="Red" Background="Black" Margin="0,0,65,266" />
+
+        <Label  Content="Телефон 1:" FontSize="14" Foreground="White" Margin="40,109,396,157"/>
+        <TextBox x:Name="Txb_Phone1"  HorizontalAlignment="Left" Height="23" Margin="122,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214"/>
+
+        <Button x:Name="Btn_Exit" Content="Выход" HorizontalAlignment="Left" Margin="413,265,0,0" VerticalAlignment="Top" Width="118" Height="31" Click="Btn_Exit_Click"/>
+
+        <Button x:Name="Btn_Auth" Content="Авторизовать" HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top" Width="381" Height="31" Click="Btn_Auth_Click"/>
+        <Button x:Name="Btn_SendCodes" Content="Отправить код " HorizontalAlignment="Left" Margin="122,156,0,0" VerticalAlignment="Top" Width="328" Height="26" IsDefault="True" Click="Btn_SendCodes_Click"/>
+
+
+        <TextBox x:Name="Txb_Code1" HorizontalAlignment="Left" Height="23" Margin="365,109,0,0" TextWrapping="Wrap" Text="Код" VerticalAlignment="Top" Width="85"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="TLSpammer.GuideWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TLSpammer"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Icon="files/guide.png"
+        Title="Как этим пользоваться?" Height="282" Width="692">
+    <Grid>
+        <Image HorizontalAlignment="Left" Source="files/guide.png" Height="223" Margin="10,10,0,0" VerticalAlignment="Top" Width="223" RenderTransformOrigin="0.5,0.5"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="204" Margin="233,29,0,0" Stroke="Black" VerticalAlignment="Top" Width="443"/>
+        <Label Content="Перед началом работы необходимо выбрать файл с никнеймами из " HorizontalAlignment="Left" Margin="233,29,0,0" VerticalAlignment="Top" Height="27" Width="431"/>
+        <Label Content="парсера. Далее необходимо дождаться завершение чтения файла и создания" HorizontalAlignment="Left" Margin="233,43,0,0" VerticalAlignment="Top" Height="27" Width="443"/>
+        <Label Content="пользователей внутри программы. Затем всё ещё проще! " HorizontalAlignment="Left" Margin="233,57,0,0" VerticalAlignment="Top" Height="27" Width="443"/>
+        <Label Content="Набираем текст сообщения и нажимаем отправить. " HorizontalAlignment="Left" Margin="233,72,0,0" VerticalAlignment="Top" Height="27" Width="443"/>
+        <Label Content="Дальше остается только подождать. Приложение всё сделает само. " HorizontalAlignment="Left" Margin="233,87,0,0" VerticalAlignment="Top" Height="27" Width="443"/>
+        <Label Content="Приятного использования :)" HorizontalAlignment="Left" Margin="233,103,0,0" VerticalAlignment="Top" Height="27" Width="443"/>
+
+    </Grid>
+</Window>
